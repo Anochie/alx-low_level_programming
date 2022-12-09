@@ -2,7 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 
-/**  Main - This code runs a random number each time it is executed */
+/**
+ * Main - This code runs a random number each time it is executed 
+ * 
+ * Return: Always 0 (sucess)
+ */
 int main(void)
 {
 	int n;
