@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 
-/** Main - This code prints random numbers each time it is executed
+/**
+ * Main - This code prints random numbers each time it is executed
  *
  * Return: Always 0 (Sucess)
  */
