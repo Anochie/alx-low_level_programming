@@ -2,10 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 
-/**
- * Main - This code runs a random number each time it is executed 
- * 
- * Return: Always 0 (sucess)
+/** Main - This code prints random numbers each time it is executed
+ *
+ * Return: Always 0 (Sucess)
  */
 int main(void)
 {
