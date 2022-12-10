@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * main - prints all possible combinations of single-digit numbers
@@ -22,7 +21,7 @@ int main(void)
 				if (!(ones == '9' && tens == '8'))
 				{
 					putchar(',');
-					putchar(',');
+					putchar(' ');
 				}
 			}
 		}
