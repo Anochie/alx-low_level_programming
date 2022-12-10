@@ -8,18 +8,24 @@
  */
 int main(void)
 {
-	int num = '0';
-	char letter = 'a';
+	int ones = '0';
+	int tens = '0';
 
-	while (num < '10')
+	for (tens = '0'; tens <= '9'; tens++)
 	{
-		putchar(num);
-		num++;
-	}
-	while (letter <= 'f')
-	{
-		putchar(letter);
-		letter++;
+		for (ones '0'; ones <= '9'; ones++)
+		{
+			if (!((ones == tens) || (tens > ones)))
+			{
+				putchar(tens);
+				putchar(ones);
+				if (!(ones == '9' && tens == '8'))
+				{
+					putchar(',');
+					putchar(',');
+				}
+			}
+		}
 	}
 	putcher('\n');
 	return (0);
