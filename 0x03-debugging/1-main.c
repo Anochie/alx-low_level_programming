@@ -9,7 +9,7 @@ int main(void)
 {
         int i;
 
-        printf("Infinite loop incoming :(\n"); // this code causes an infinite loop
+        printf("Infinite loop incoming :(\n");
 
         i = 0;
 
