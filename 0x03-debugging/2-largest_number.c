@@ -5,7 +5,7 @@
  * @a: first integer
  * @b: second integer
  * @c: third integer
- * Return: Always 0.
+ * Return: largest number
  */
 
 int largest_number(int a, int b, int c)
@@ -14,16 +14,16 @@ int largest_number(int a, int b, int c)
 
     if (a > b && b > c)
     {
-        printf("largest = %d", a);
+        largest = a;
     }
     else if (b > a && a > c)
     {
-        printf("largest = %d", b);
+        largest = b;
     }
     else
     {
-        printf("largest = %d", c);
+        largest = c;
     }
 
-    return (0);
+    return (largest);
 }
