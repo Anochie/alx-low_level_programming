@@ -6,7 +6,7 @@
  * @a: Is an array of intergers
  * @n: Is the number of elements to swap
  *
- * Return: void
+ * Return: empty
  */
 void reverse_array(int *a, int n)
 {
